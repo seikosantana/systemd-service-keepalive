@@ -1,0 +1,9 @@
+[Unit]
+Type=simple
+Description=Periodic Service Restarter Daemon
+
+[Install]
+WantedBy=multi-user.target
+
+[Service]
+ExecStart=/usr/sbin/service-restarter.sh
